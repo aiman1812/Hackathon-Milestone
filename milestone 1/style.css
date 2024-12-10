@@ -1,0 +1,294 @@
+ body {
+    background-color: rgb(174, 217, 243);
+    height: 180px;
+
+    letter-spacing: 2px;
+    width: 100%;
+    
+
+}
+  *{
+    margin: 0px;
+    padding: 0px;
+    font-family:  Arial, sans-serif; 
+    font-style: oblique;
+
+ } 
+.container {
+    display: flex;
+    background-color: white;
+    height: auto;
+    width: 45%;
+    position: absolute;
+    margin: 0;
+    border-radius: 5px;
+    transform: translate(-50% -50%); 
+    margin-left: 30%;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+.left-section {
+    background-color: rgb(12, 11, 11);
+    width: 27%;
+    height: 50%;
+    float: left;
+    border-right: 5px solid rgb(202, 7, 7); 
+    padding: 20px;
+    text-align: center;
+    
+    
+    
+}
+
+ .right-section {
+    width: 35%;
+    float: left;
+} 
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid rgb(202, 7, 7); 
+    margin-bottom : 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    box-shadow: 6px 7px 9px 5px;
+
+
+}
+.profile-picture img {
+    width: 100%;
+    height: auto;
+}
+ 
+.box-1 {
+    position: relative;
+    
+}
+h3 {
+    font-style: italic;
+    font-size: 18px;
+    padding: 2px;
+    margin: 20px 0 10px;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(202, 7, 7);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.name-div{
+    padding: 86px 0 60px 55px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.box-2 {
+padding: 0 50px;
+margin-top: 30px;
+}
+.p1 {
+    padding: 9px 10px;
+    font-size: 15px;
+}
+.skill-container {
+    width: 90%;
+    background-color: #4d4d4d;
+    margin: 0 10px;
+}
+.skill {
+    text-align:right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+}
+.html {
+    width: 80%;
+    background-color: rgb(224, 222, 70);
+}
+.css {
+    width: 75%;
+    background-color: rgb(224, 222, 70);
+}
+.javascript {
+    width: 70%;
+    background-color: rgb(224, 222, 70);
+
+}
+.typescript {
+    width: 70%;
+    background-color: rgb(224, 222, 70);
+}
+
+.tailwind css {
+    width: 75%;
+    background-color: rgb(224, 222, 70);
+}
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    margin: 0;
+    background-color: #e4d3d3;
+    padding: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    
+}
+h1 {
+    text-align: center;
+    font-style: italic;
+
+}
+.resume-container {
+    display: flex;
+    background-color: white;
+    width: 55%;
+    margin: 0;
+    border-radius: 5px;
+    box-shadow: inset 15px rgb(122, 121, 121);
+    position: absolute;
+    
+    
+}
+.left-section {
+    background-color:rgb(1, 20, 1);
+    width: 200px;
+    padding: 25px;
+    color: white;
+    text-align: center;
+    border-right: 5px solid rgba(199, 35, 7, 0.993);
+    height: 100%;
+    box-shadow: 10px;
+    float: left;
+    
+}
+.box-1 {
+    position: absolute;
+}
+.heading {
+    background-color: grey;
+    padding: 10px;
+    color:#fbb03b;
+    text-align: left;
+    padding-left: 20px;
+    margin-right: -15px;
+}
+.heading::after {
+    content: '';
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    background-color: #5a5959;
+    left: 191px;
+    transform: rotate(56deg);
+    z-index: -1;
+}
+.profile-picture {
+    height: 180px;
+    width: 180px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border:  5px solid rgba(199, 37, 7, 0.993) ;
+    box-shadow:  6px 7x 9px 5px rgba(199, 35, 4, 0.993);
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+ h3 {
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+    box-shadow: 0 0 15px rgba(199, 35, 4, 0.993);
+    margin: 20px 0 10px;
+    color:black; 
+    font-style: oblique;
+ }
+ .right-section {
+    width: 65%;
+    padding: 20%;
+
+ }
+ .name {
+    padding: 86px;
+    text-align: center;
+    letter-spacing: 3px;
+    
+}
+.h1 {
+    justify-content: center;
+    font-weight: 800px;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+    align-content: space-evenly;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
